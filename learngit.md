@@ -98,11 +98,21 @@
 
 ![image-20200724173157195](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724173157195.png)
 
-关闭当前gitbash，重新打开一个试试
+关闭当前gitbash，重新打开一个试试---还是不行
+
+![image-20200724173517908](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724173517908.png)
+
+改成GBK试试：
+
+
 
 ### 第二次push仍需在弹窗中输入GitHub的用户名和密码
 
 **这是怎么回事？难道每次push都要吗？**
+
+答：第三次push又不用了，观察后续吧
+
+![image-20200724173533735](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724173533735.png)
 
 # 连接GitHub
 
