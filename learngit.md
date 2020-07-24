@@ -84,7 +84,7 @@
 
 ![image-20200724113202083](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724113202083.png)
 
-### git bash中文乱码解决办法
+#### git bash中文乱码解决办法
 
 1.在git bash命令右键选择-options
 
@@ -115,6 +115,12 @@
 **这是怎么回事？难道每次push都要吗？**
 
 答：第三次push又不用了，观察后续吧
+
+#### 问题解决：
+
+**产生的原因是在克隆的时候使用的是https的方式或者用一些特殊的指令来克隆的github项目源，把https调整为ssh的方式就可以了，**
+
+[csdn]: https://blog.csdn.net/JackLiu16/article/details/80465982
 
 ![image-20200724173533735](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724173533735.png)
 
