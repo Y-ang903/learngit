@@ -17,6 +17,43 @@
 > 工作区、暂存区和本地仓库，逻辑上是本地计算机。当我们新建一个文件时，文件位于工作区，处于已修改（modified）状态，表明文件已进行了修改，但还没有提交保存；通过命令git add 将其添加到暂存区，文件是已暂存（staged）状态，表示把已修改的文件放到下次提交时要保存的清单中；***\*通过命令\*******\*git commit\*******\*将文件放入本地仓库\****，文件为已提交（commited）状态，表示该文件已经被安全地保存在本地数据库中，到这一步可以说是成功生成了一个新的版本。
 > 远程仓库用来将本地仓库上传到网络，实现备份、共享和合作。我们选用开源中国的[码云Git@OSC](https://git.oschina.net/)作为代码托管平台。
 
+------
+
+提交的message信息，显示为乱码
+
+![image-20200724101728216](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724101728216.png)
+
+**解决办法**：三条命令
+
+> 文件提交编码格式
+
+> ```bash
+> git config --global i18n.commitencoding utf-8
+> ```
+
+> 这个主要就是log输出的编码格式
+
+> ```bash
+> git config --global i18n.logoutputencoding utf-8
+> ```
+
+>
+> 界面编码格式
+
+> ```bash
+> git config --global gui.encoding utf-8
+> ```
+
+[参考]: https://blog.csdn.net/qq_43356428/article/details/105192940
+
+![image-20200724102547158](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724102547158.png)
+
+
+
+
+
+
+
 [以下是菜鸟教程的解析]: https://www.runoob.com/git/git-workspace-index-repo.html
 
 > # Git 工作区、暂存区和版本库
