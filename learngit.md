@@ -52,13 +52,13 @@
 
 ![image-20200724102916900](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724102916900.png)
 
-**另一办法**
+~~**另一办法**~~
 
 > ```bash
 > git config --global core.quotePath false
 > ```
 
-
+![image-20200724103124928](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724103124928.png)
 
 [以下是菜鸟教程的解析]: https://www.runoob.com/git/git-workspace-index-repo.html
 
