@@ -96,7 +96,13 @@
 
 ![image-20200724172431866](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724172431866.png)
 
+![image-20200724173157195](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724173157195.png)
 
+关闭当前gitbash，重新打开一个试试
+
+### 第二次push仍需在弹窗中输入GitHub的用户名和密码
+
+**这是怎么回事？难道每次push都要吗？**
 
 # 连接GitHub
 
