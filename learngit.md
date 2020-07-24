@@ -1,3 +1,9 @@
+# 安装git后的第一次操作
+
+## 创建本地仓库-init-add-commit
+
+[参考廖雪峰的官方网站教程]: https://www.liaoxuefeng.com/wiki/896043488029600/896827951938304	"git教程"
+
 ![image-20200724094304275](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724094304275.png)
 
 1. mkdir
@@ -18,6 +24,10 @@
 > 远程仓库用来将本地仓库上传到网络，实现备份、共享和合作。我们选用开源中国的[码云Git@OSC](https://git.oschina.net/)作为代码托管平台。
 
 ------
+
+## 错误
+
+### 问题描述
 
 提交的message信息，显示为乱码
 
@@ -60,9 +70,93 @@
 
 ![image-20200724103124928](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724103124928.png)
 
+
+
+**以上搜索的办法都是解决GitHub或者gitee码云上message显示为乱码的**
+
+**不是解决git bash乱码的**
+
+所以在GitHub上是正常的（因为是在连接GitHub之前操作的，所以不知道因果关系，万一不操作GitHub-message也是正常的呢）：
+
+这里的message信息中文不是乱码，为什么在git bash反回的是乱码呢？
+
+另外，md文档里的图片好像显示不出来
+
+![image-20200724113202083](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724113202083.png)
+
+### git bash中文乱码解决办法
+
+1.在git bash命令右键选择-options
+
+![image-20200724141308058](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724141308058.png)
+
+2.按图操作。
+
+![image-20200724172335346](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724172335346.png)
+
+![image-20200724172431866](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724172431866.png)
+
+
+
+# 连接GitHub
+
+## 生成ssh key
+
+[参考菜鸟教程]: https://www.runoob.com/git/git-remote-repo.html
+
+## 测试是否连接成功
+
+![image-20200724110839452](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724110839452.png)
+
+## 在GitHub上新建仓库
+
+> 目前，在GitHub上的这个`learngit`仓库还是空的，GitHub告诉我们，可以从这个仓库克隆出新的仓库，也可以把一个已有的本地仓库与之关联，然后，把本地仓库的内容推送到GitHub仓库。
+>
+> 现在，我们根据GitHub的提示，在本地的`learngit`仓库下运行命令：（绿色框）
+
+![image-20200724111637719](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724111637719.png)
+
+## 将本地仓库push到GitHub
+
+![image-20200724111838147](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724111838147.png)
+
+![image-20200724112626468](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724112626468.png)
+
+![image-20200724112608829](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724112608829.png)
+
+![image-20200724112634639](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724112634639.png)
+
+刷新下GitHub，会发现和本地仓库一样了
+
+这里的message信息中文不是乱码，为什么在git bash反回的是乱码呢？
+
+另外，md文档里的图片好像显示不出来
+
+![image-20200724113202083](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724113202083.png)
+
+# 小结
+
+**第一次使用git、且关联GitHub操作比较麻烦，以后熟悉了，就轻松了**
+
+**后续往GitHub push命令就简单了**
+
+> 把本地库的内容推送到远程，用`git push`命令，实际上是把当前分支`master`推送到远程。
+>
+> 由于远程库是空的，我们第一次推送`master`分支时，加上了`-u`参数，Git不但会把本地的`master`分支内容推送的远程新的`master`分支，还会把本地的`master`分支和远程的`master`分支关联起来，在以后的推送或者拉取时就可以简化命令。
+
+> 从现在起，只要**<u>*本地作了提交*</u>**，就可以通过命令：
+>
+> ```bash
+> $ git push origin master
+> ```
+>
+> 把本地`master`分支的最新修改推送至GitHub，现在，你就拥有了真正的分布式版本库！
+
+## 关于工作区、暂存区和版本库
+
 [以下是菜鸟教程的解析]: https://www.runoob.com/git/git-workspace-index-repo.html
 
-> # Git 工作区、暂存区和版本库
+> # Git 工作区、暂存区和版本库b
 >
 > ------
 >
