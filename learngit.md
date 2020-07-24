@@ -23,7 +23,7 @@
 
 ![image-20200724101728216](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724101728216.png)
 
-**解决办法**：三条命令
+~~**解决办法**：三条命令~~
 
 > 文件提交编码格式
 
@@ -50,7 +50,13 @@
 
 
 
+![image-20200724102916900](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724102916900.png)
 
+**另一办法**
+
+> ```bash
+> git config --global core.quotePath false
+> ```
 
 
 
