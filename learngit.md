@@ -104,7 +104,11 @@
 
 改成GBK试试：
 
+![image-20200724174059349](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724174059349.png)
 
+**我要疯了**，，这又是什么操作
+
+![image-20200724174341944](C:\Users\26369\AppData\Roaming\Typora\typora-user-images\image-20200724174341944.png)
 
 ### 第二次push仍需在弹窗中输入GitHub的用户名和密码
 
